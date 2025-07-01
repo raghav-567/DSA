@@ -3,7 +3,7 @@ package BackTracking;
 
 public class Nqueens {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 4;
         boolean[][] maze = new boolean[n][n];    //false values
         System.out.print(NQueens(0,maze));
 
