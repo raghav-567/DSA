@@ -1,4 +1,8 @@
 package Stack;
 
-public class StackException {
+public class StackException extends Exception{
+
+    public StackException(String message) {
+        super(message);
+    }
 }
